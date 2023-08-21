@@ -1,0 +1,39 @@
+*{
+    
+    color: antiquewhite;
+    background: rgba(0, 0, 0, 0.7)url('/static/image/878618.jpg');
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.fr{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    background-color: none;
+    height: 300px;
+}
+.fr form{
+    padding: 150px;
+    height: 150px;
+}
+.fr form select{
+    background-color: aliceblue;  
+}
+
+.fr h1{
+    display: grid;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.fr form button{
+    height: 30px;
+    width: 70px;
+}
+@media only screen and (max-width: 800px) {
+    .fr form{
+        padding: 2px;
+        height: 205px;
+        width: 336px;
+    }
+}
